@@ -10,9 +10,9 @@ const server = http.createServer((req, res)=>{
 server.listen(port);
 
 
-const server2 = http.createServer((req, res)=>{
-    res.write('<h1>hello Second server created\n </h1>');
-    res.end('<p>Hello World\n<p>');
-});
+// const server2 = http.createServer((req, res)=>{
+//     res.write('<h1>hello Second server created\n </h1>');
+//     res.end('<p>Hello World\n<p>');
+// });
 
-server2.listen(port2);
+// server2.listen(port2);
