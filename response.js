@@ -3,7 +3,7 @@ const age = 29;
 const date = new Date();
 
 const server = http.createServer((req, res)=>{
-    res.setHeader("Content-type", "text/html")
+    res.setHeader("Content-Type", "text/html")
     // res.write("<h1>hello new server created\n </h1>");
     res.write(`
         <html>
